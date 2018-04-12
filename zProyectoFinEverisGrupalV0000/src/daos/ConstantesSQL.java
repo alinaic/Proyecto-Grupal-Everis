@@ -7,6 +7,7 @@ public class ConstantesSQL {
 			+ " usuario like ? and contraseña like ?";
 	public static final String REGISTRAR_USUARIO = "insert into usuarios (usuario,contraseña,nombre,apellidos,"
 			+ "fechaNacimiento,email,dni) values (?,?,?,?,?,?,?)";
+	public static final String LISTAR_PREGUNTAS = "SELECT * FROM preguntas";
 	public static final String SELECCION_RESPUESTASPREGUNTAS ="select * from respuestaspreguntas";
 	
 
