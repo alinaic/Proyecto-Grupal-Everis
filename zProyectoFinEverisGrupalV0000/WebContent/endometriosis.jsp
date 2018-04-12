@@ -11,6 +11,7 @@
 	
 	<c:if test="${sessionScope.idUser != null}">
 		Bienvenido: ${sessionScope.idUser} <br/>
+		<a href="ServletListadoRespuestaspreguntas">Respuestas preguntas</a>&nbsp;
 	</c:if>
 	
 	<c:if test="${sessionScope.idUserAdmin != null}">
