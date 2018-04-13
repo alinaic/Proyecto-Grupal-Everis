@@ -21,6 +21,9 @@
 	   <div class="container">
 	      <div id="login">
 	
+		<!-- Validacion por carlos -->
+		<div style="color:red">&nbsp;${mensajelogin}</div>      
+		      
 	        <form action="ServletLogin"	 method="post">
 	
 	          <fieldset class="clearfix">
@@ -33,7 +36,7 @@
 	
 	        </form>
 	
-	        <p>¿No eres miembro? <a href="registroUsuario.jsp" class="blue">Registrate ahora</a><span class="fontawesome-arrow-right"></span></p>
+	        <p>Â¿No eres miembro? <a href="registroUsuario.jsp" class="blue">Registrate ahora</a><span class="fontawesome-arrow-right"></span></p>
 	
 	      </div> <!-- end login -->
 	
