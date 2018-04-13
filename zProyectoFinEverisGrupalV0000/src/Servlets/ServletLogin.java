@@ -42,7 +42,5 @@ public class ServletLogin extends HttpServlet {
 		} else {
 			// significaria que nos estan asaltando la seguridad de la pagina web
 		}
-
 	}
-
 }

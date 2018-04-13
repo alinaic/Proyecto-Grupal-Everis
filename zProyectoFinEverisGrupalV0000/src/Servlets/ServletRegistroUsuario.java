@@ -1,4 +1,4 @@
-package Servlets;
+	package Servlets;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -21,6 +21,8 @@ public class ServletRegistroUsuario extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		
 		
 		
 		String nombre = request.getParameter("campoNombre");
@@ -53,7 +55,6 @@ public class ServletRegistroUsuario extends HttpServlet {
 		System.out.println("usuario registrado con exito");
 		
 		request.getRequestDispatcher("registroUsuarioOK.jsp").forward(request, response);
-		System.out.println("a");
 		
 	}
 
