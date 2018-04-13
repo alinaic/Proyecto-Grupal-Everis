@@ -19,6 +19,7 @@
 		Bienvenido ADMINISTRADOR: ${sessionScope.idUser} <br/>
 	</c:if>
 	
-	
+		<!-- Queda pendiente mostrar por aquí mensaje de formulario realizado-->
+		<!-- Variable setAttribute mensajeFormSubido en servletRecogidaDatos-->
 	</body>
 </html>
