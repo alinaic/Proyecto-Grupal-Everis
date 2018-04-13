@@ -102,6 +102,9 @@ public class ServletRecogidaDatos extends HttpServlet {
 		RespuestasCheckDAOImpl respuestasCheckDAO = new RespuestasCheckDAOImpl();
 		respuestasCheckDAO.registrarRespuestas(checkRespuestas);
 		
+		request.setAttribute("mensajeFormSubido", "Formulario realizado con correctamente");
+		request.getRequestDispatcher("endometriosis.jsp").forward(request, response);
+		
 //		// Comprobar que estan todos los datos
 //		System.out.println("Listado de respuestas de texto:");
 //		for (TextRespuesta respuesta : textRespuestas) {
