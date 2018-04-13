@@ -36,7 +36,9 @@ public class ServletLogin extends HttpServlet {
 			request.getRequestDispatcher("endometriosis.jsp").forward(request, response);
 
 		} else if (idUsuario == -1) {
-
+			//validacion login carlos
+			request.setAttribute("mensajelogin", "email y/o pass incorrectos");
+			request.getRequestDispatcher("login.jsp").forward(request, response);
 			// signficaria que el usuario no existe en la base de datos y deberia
 			// registrarse
 		} else {
