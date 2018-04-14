@@ -22,7 +22,18 @@
 	
 	   <div class="container">
 	      <div id="login">
-	
+		
+		      <!-- Validacion por carlos -->
+				<div style="color:red">&nbsp;${mensajenombre}</div>
+				<div style="color:red">&nbsp;${mensajeapellido}</div>
+				<div style="color:red">&nbsp;${mensajefechanacimiento}</div>
+				<div style="color:red">&nbsp;${mensajeemail}</div>
+				<div style="color:red">&nbsp;${mensajeusuario}</div>
+				<div style="color:red">&nbsp;${mensajecontraseña}</div>
+				<div style="color:red">&nbsp;${mensajeconconrdancia}</div>
+		      
+		      
+		      
 	        <form action="ServletRegistroUsuario"	 method="post">
 	
 	          <fieldset class="clearfix">
@@ -72,10 +83,10 @@
 	            <p><span class="fontawesome-user"></span><input type="text" name="campoDNI" required></p> 
 	            Usuario:<br/>
 	            <p><span class="fontawesome-user"></span><input type="text" name="campoUsuario" required></p> 
-	            Contrase�a:<br/>
-	            <p><span class="fontawesome-user"></span><input type="password" name="campoContrase�a" required></p> 
-	            Repita la contrase�a:<br/>
-	            <p><span class="fontawesome-user"></span><input type="password" name="campoRepetirContrase�a" required></p>
+	            Contraseña:<br/>
+	            <p><span class="fontawesome-user"></span><input type="password" name="campoContraseña" required></p> 
+	            Repita la contraseña:<br/>
+	            <p><span class="fontawesome-user"></span><input type="password" name="campoRepetirContraseña" required></p>
 	            <p><input type="submit" value="Registrarse"></p>
 	
 	          </fieldset>
