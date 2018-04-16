@@ -13,6 +13,9 @@
 		Bienvenido: ${sessionScope.idUser} <br/>
 		<a href="ServletsListadoPreguntas">Preguntas</a>&nbsp;
 		<a href="ServletListadoRespuestaspreguntas">Respuestas preguntas</a>&nbsp;
+		
+		<!--Para ir al formulario -->
+		<a href="ServletCreaFormulario">IR AL FORMULARIO</a>
 	</c:if>
 	
 	<c:if test="${sessionScope.idUserAdmin != null}">
